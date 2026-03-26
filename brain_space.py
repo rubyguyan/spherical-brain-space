@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-球形脑空间模拟器 - 真实神经元版本 v2.0
+球形脑空间模拟器 - 真实神经元版本 v0.0.1
 =====================================
 功能：
 ├── 真实SWC神经元文件加载
@@ -920,7 +920,7 @@ class BrainSpaceSimulator:
         filename = os.path.join(self.data_dir, f"snapshot_{self.current_step:06d}.json")
         
         data = {
-            'version': '3.0',
+            'version': '0.0.1',
             'timestamp': datetime.now().isoformat(),
             'step': self.current_step,
             'radius': self.R,
@@ -1152,7 +1152,7 @@ class Visualizer:
     
     def _print_help(self):
         print("\n" + "="*60)
-        print("  球形脑空间模拟器 - 真实神经元版 v3.0")
+        print("  球形脑空间模拟器 - 真实神经元版 v0.0.1")
         print("="*60)
         print("\n快捷键:")
         print("  空格: 暂停/继续")
@@ -1177,7 +1177,7 @@ class Visualizer:
     def show_help_window(self):
         help_text = """
 ┌─────────────────────────────────────────────────────────────┐
-│                    球形脑空间模拟器 v3.0                     │
+│                    球形脑空间模拟器 v0.0.1                     │
 │                      快捷键帮助                              │
 ├─────────────────────────────────────────────────────────────┤
 │  按键    │  功能              │  说明                       │
@@ -1613,7 +1613,7 @@ def main():
     args = parser.parse_args()
     
     print("\n" + "="*60)
-    print("  球形脑空间模拟器 - 真实神经元版本 v3.0")
+    print("  球形脑空间模拟器 - 真实神经元版本 v0.0.1")
     print("="*60)
     
     print("\n模式: 真实SWC神经元")
