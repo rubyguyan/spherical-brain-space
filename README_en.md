@@ -125,7 +125,7 @@ Release Date: March 2026
 
 ## License
 
-- **Code**: GPL-3.0 License - Any derivative works must be open source
+- **Code**: MIT License - Free to use, please credit the source
 - **Concept Description**: CC BY 4.0 - Please credit the source when reposting
 
 ## Acknowledgments

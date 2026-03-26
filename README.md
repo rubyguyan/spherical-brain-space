@@ -123,7 +123,7 @@ GitHub: https://github.com/rubyguyan/spherical-brain-space
 
 ## 许可证
 
-- **代码**：GPL-3.0 License - 任何衍生作品必须开源
+- **代码**：MIT License - 自由使用，请注明出处
 - **创意说明**：CC BY 4.0 - 转载请注明出处
 
 ## 致谢
