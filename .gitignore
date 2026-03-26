@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime data (optional - comment out if you want to include)
+brain_space_data/*.json
+!brain_space_data/.gitkeep
+
+# Logs
+*.log
