@@ -1,10 +1,22 @@
 # 球形脑空间模拟器 (Spherical Brain Space Simulator)
 
+> **原创声明**：本创意由 rubyguyan 于2026年3月首次提出并公开发布。
+> 
+> 详细创意说明请参阅：[IDEA.md](IDEA.md)
+
 基于 **FlyWire/FlyConnectome** 真实神经元数据的脑空间模拟器。
 
 ## 简介
 
 本项目使用果蝇大脑的真实神经元形态数据（SWC格式），在球形三维空间中进行神经元网络模拟。神经元之间通过碰撞自动形成突触连接，模拟真实的神经网络活动。
+
+## 核心创新
+
+- **球形空间约束**：将神经元约束在球形空间内，形成自然的空间梯度
+- **真实神经元数据**：使用FlyWire项目的真实神经元形态
+- **碰撞驱动连接**：神经元通过物理碰撞自动形成突触
+- **营养供给系统**：球心营养充足，边缘稀少
+- **神经元生命周期**：分裂、消亡、动态平衡
 
 ## 数据来源
 
@@ -67,6 +79,7 @@ python brain_space.py --radius 1000     # 球形空间半径
 球形脑空间/
 ├── brain_space.py      # 主程序
 ├── swc_neuron.py       # SWC神经元模块
+├── IDEA.md             # 创意说明文档
 ├── neurons/            # 神经元SWC文件
 │   └── *.swc          # 真实神经元形态数据
 ├── docs/               # 文档
@@ -95,9 +108,21 @@ FAFB坐标（纳米级）转换为球形空间坐标：
 - 重置电位: -75 mV
 - 不应期: 2 ms
 
+## 引用
+
+如果你在研究或项目中使用了本创意或代码，请引用：
+
+```
+球形脑空间模拟器 (Spherical Brain Space Simulator)
+作者: rubyguyan
+GitHub: https://github.com/rubyguyan/spherical-brain-space
+发布日期: 2026年3月
+```
+
 ## 许可证
 
-MIT License
+- **代码**：GPL-3.0 License - 任何衍生作品必须开源
+- **创意说明**：CC BY 4.0 - 转载请注明出处
 
 ## 致谢
 
