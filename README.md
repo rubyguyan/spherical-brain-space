@@ -1,5 +1,7 @@
 # 球形脑空间模拟器 (Spherical Brain Space Simulator)
 
+[English Version](README_en.md) | 中文版
+
 > **原创声明**：本创意由 rubyguyan 于2026年3月首次提出并公开发布。
 > 
 > 详细创意说明请参阅：[IDEA.md](IDEA.md)
